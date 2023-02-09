@@ -3,13 +3,12 @@ module paris
 go 1.12
 
 require (
-	github.com/dgraph-io/ristretto v0.0.0-20191010170704-2ba187ef9534 // indirect
-	github.com/gin-gonic/gin v1.4.0
+	github.com/gin-gonic/gin v1.7.7
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible
-	github.com/prometheus/client_golang v1.1.0 // indirect
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/viper v1.4.0
 	github.com/stretchr/testify v1.4.0
-	golang.org/x/exp v0.0.0-20190429183610-475c5042d3f1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
